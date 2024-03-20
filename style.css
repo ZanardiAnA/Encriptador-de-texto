@@ -1,0 +1,123 @@
+*{
+    background: #232946;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #fffffe;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #fffffe;
+}
+
+.text-area:focus {
+    outline: none;
+}
+.mensaje {
+    background-image: url("img/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #fffffe;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background-color: #b8c1ec;
+    border: 1px solid #fffffe;
+    border-radius: 24px;
+    color: #232946;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    text-align: center;
+}
+
+.btn-encriptar {
+    background-color: #eebbc3;
+    border: 1px solid #fffffe;
+    border-radius: 24px;
+    color: #232946;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    text-align: center;
+}
+
+.copiar {
+  
+    border: 1px solid #fffffe;
+    border-radius: 24px;
+    color: #fffffe;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+    text-align: center;
+}
+
+.informacion {
+    color: #fffffe;
+    font-size: 10px;
+    border: 2px;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fffffe; 
+    font-size: 14px;
+    padding: 5px 20px;
+
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+.footer-content img {
+    padding-top: 5px;
+    width: 35px;
+}
