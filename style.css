@@ -36,7 +36,7 @@ main{
 }
 .mensaje {
     background-image: url("img/Muñeco.png");
-    background-repeat: no-repeat;
+    background-size: cover;
     border: none;
     border-radius: 24px;
     color: #fffffe;
@@ -85,8 +85,8 @@ main{
     color: #fffffe;
     cursor: pointer;
     height: 67px;
-    margin-left: 108px;
-    margin-top: 402px;
+    top: 90%;
+    left: 55%;
     position: absolute;
     width: 336px;
     text-align: center;
@@ -98,26 +98,10 @@ main{
     border: 2px;
     padding: 20px;
 }
-footer {
+.Copyright {
     text-align: center;
+    color: #fffffe;
+    font-size: 15px;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-    color: #fffffe; 
-    font-size: 14px;
-    padding: 5px 20px;
-
-}
-
-.footer-content a {
-    text-decoration: none;
-}
-
-.footer-content img {
-    padding-top: 5px;
-    width: 35px;
-}
